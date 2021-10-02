@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Matematik
+{
+    class DortIslem
+    {
+        public void Topla(int sayi1, int sayi2) 
+        {
+            int toplam = sayi1 + sayi2;
+            Console.WriteLine("Toplam : {0}",toplam);
+        }
+        public void Cikar(int sayi1, int sayi2)
+        {
+            int toplam = sayi1 - sayi2;
+            Console.WriteLine("Çıkarma sonucu : {0}", toplam);
+        }
+        public void Carp() { }
+        public void Bol() { }
+    }
+}
